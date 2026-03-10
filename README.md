@@ -1,7 +1,7 @@
 # Human-Stress-Detection-ANN
 Human Stress Detection Using Artificial Neural Networks (Mini Project)
 
-Demo :- https://human-stress-detection-system-shreeyansh.streamlit.app/
+Demo :- https://human-stress-detection-system-shreeyansh.streamlit.app/ </br>
 linkedin :- https://www.linkedin.com/in/shreeyansh-asati-18shreey/
 
 # 🧠 Human Stress Detection Using Artificial Neural Networks
@@ -37,4 +37,5 @@ Shreeyansh Asati
 ```bash
 pip install -r requirements.txt
 jupyter notebook Human_Stress_Detection.ipynb
+
 
