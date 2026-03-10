@@ -94,4 +94,58 @@ if st.button("Predict Stress Level"):
     else:
         st.success("✅ Low Stress Level")
 
+
+    # ---------- FOOTER ----------
+
+st.markdown(
+    """
+    <style>
+    /* Add bottom padding so footer doesn't overlap chat input */
+    .block-container {
+        padding-bottom: 80px;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(0,0,0,0);
+        color: #B3B3B3;
+        text-align: center;
+        font-size: 16px;
+        padding: 10px;
+        z-index: 100;
+    }
+
+    /* Blue links */
+    .footer a {
+        color: #1DA1F2;   /* Blue */
+        text-decoration: none;
+        margin: 0 8px;
+        font-weight: 500;
+    }
+
+    .footer a:hover {
+        color: #0A66C2;   /* Darker blue on hover */
+        text-decoration: underline;
+    }
+    </style>
+
+    <div class="footer">
+        © 2025 <b>Developed by Shreeyansh Asati</b> |
+        <a href="https://www.linkedin.com/in/shreeyansh-asati-18shreey/" target="_blank">
+            🔗 LinkedIn
+        </a> |
+        <a href="https://github.com/SHREEYANSHGIT" target="_blank">
+            💻 GitHub
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
+
         
