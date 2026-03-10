@@ -46,8 +46,8 @@ Gender = st.selectbox("Gender", ["Male","Female"])
 
 Status = st.selectbox("Marital Status", ["Single","Married"])
 
-Wake_Up_Time_Hour = st.slider("Wake Up Time Hour", 0, 23, 7)
-Bed_Time_Hour = st.slider("Bed Time Hour", 0, 23, 22)
+Wake_Up_Time_Hour = st.slider("Wake Up Time Hour (as per clock time) ", 0, 23, 7)
+Bed_Time_Hour = st.slider("Bed Time Hour (as per clock time) ", 0, 23, 22)
 
 # ---------------- ENCODING ---------------- #
 
@@ -149,4 +149,5 @@ st.markdown(
 
 
         
+
 
