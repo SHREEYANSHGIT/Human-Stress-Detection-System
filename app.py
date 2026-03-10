@@ -62,7 +62,7 @@ Single = 1 if Status == "Single" else 0
 
 # ---------------- PREDICTION ---------------- #
 
-if st.button("Predict Stress Level"):
+if st.button("Predict Stress Level 🚀"):
 
     features = np.array([[Age,
                           Sleep_Duration,
@@ -149,3 +149,4 @@ st.markdown(
 
 
         
+
