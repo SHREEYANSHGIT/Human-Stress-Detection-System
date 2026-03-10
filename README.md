@@ -1,6 +1,9 @@
 # Human-Stress-Detection-ANN
 Human Stress Detection Using Artificial Neural Networks (Mini Project)
 
+Demo :- https://human-stress-detection-system-shreeyansh.streamlit.app/
+linkedin :- https://www.linkedin.com/in/shreeyansh-asati-18shreey/
+
 # 🧠 Human Stress Detection Using Artificial Neural Networks
 
 This project predicts human stress levels based on health and lifestyle data using a deep learning (ANN) model built with TensorFlow and Keras.
@@ -34,3 +37,4 @@ Shreeyansh Asati
 ```bash
 pip install -r requirements.txt
 jupyter notebook Human_Stress_Detection.ipynb
+
